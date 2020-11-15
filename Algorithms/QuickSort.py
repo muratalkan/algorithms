@@ -37,4 +37,4 @@ QuickSort(List, 0, len(List)-1)
 eTime = time.time()
 
 print(List)
-print("%.10f seconds" %(eTime - sTime))
+print((eTime - sTime), "seconds")
