@@ -21,4 +21,4 @@ SelectionSort(randArr)
 eTime = time.time()
 
 print(randArr)
-print("%.10f seconds" %(eTime - sTime))
+print((eTime - sTime), "seconds")
