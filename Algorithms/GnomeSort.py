@@ -6,7 +6,6 @@ def GnomeSort(A,n):
     ind=0
     
     while ind < n:
-
         if ind == 0: 
             ind = ind+1
         if A[ind] >= A[ind - 1]: 
