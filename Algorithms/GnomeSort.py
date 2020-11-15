@@ -16,12 +16,12 @@ def GnomeSort(A,n):
   
     return A
 
-arr = np.random.randint(0,1000,1000)
-n = len(arr)
+randArr = np.random.randint(0,1000,1000)
+n = len(randArr)
 
 sTime = time.time()
-arr = GnomeSort(arr, n) 
+randArr = GnomeSort(randArr, n) 
 eTime = time.time()
 
-print(arr)
+print(randArr)
 print((eTime - sTime), "seconds")
