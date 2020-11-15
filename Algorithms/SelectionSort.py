@@ -7,6 +7,7 @@ def swap(Arr, x, y):
     
 def SelectionSort(Arr):
    n = len(Arr)
+
    for i in range(0, (n-2)+1):
        minInd=i
        for j in range(i+1, (n-1)+1):
