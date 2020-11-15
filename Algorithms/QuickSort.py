@@ -28,13 +28,13 @@ def Partition(Arr, start, end):
 
     return j
 
-List=[]
+randList = []
 for i in range(0,1000):
-    List.append(random.randrange(0,1000000))
+    randList.append(random.randrange(0,1000000))
 
 sTime = time.time()
-QuickSort(List, 0, len(List)-1)
+QuickSort(randList, 0, len(randList)-1)
 eTime = time.time()
 
-print(List)
+print(randList)
 print((eTime - sTime), "seconds")
