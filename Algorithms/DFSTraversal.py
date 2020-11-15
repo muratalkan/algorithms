@@ -1,9 +1,9 @@
-def DfsRec(Graph, vert, path=[]):
+def DFSRec(Graph, vert, path=[]):
     path += [vert]
 
     for neighbor in Graph[vert]:
         if neighbor not in path:
-            path = DfsRec(Graph, neighbor, path)
+            path = DFSRec(Graph, neighbor, path)
 
     return path
 
@@ -32,4 +32,4 @@ for i in range(n):
 print("\nThe graph is")
 print(Graph)
 print("\nDFS Traversal:")
-print(DfsRec(Graph, 'a'))
+print(DFSRec(Graph, 'a'))
