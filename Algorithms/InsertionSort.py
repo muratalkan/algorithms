@@ -22,4 +22,4 @@ eTime = time.time()
 print("Some part of Sorted Array:")
 print(randArr[:10])
      
-print("%.10f seconds" %(eTime - sTime))
+print((eTime - sTime), "seconds")
