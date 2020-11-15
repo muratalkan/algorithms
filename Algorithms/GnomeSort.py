@@ -3,7 +3,6 @@ import random
 import numpy as np
 
 def GnomeSort(A,n):
-    
     ind=0
     
     while ind < n:
