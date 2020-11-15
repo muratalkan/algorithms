@@ -1,4 +1,4 @@
-def BfsRec(graph, node):
+def BFSRec(graph, node):
    visit = []
    que = []
    visit.append(node)
@@ -37,4 +37,4 @@ for i in range(n):
 print("\nThe graph is")
 print(Graph)
 print("\nBFS Traversal:")
-print(BfsRec(Graph, 'a'))
+print(BFSRec(Graph, 'a'))
