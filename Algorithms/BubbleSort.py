@@ -7,6 +7,7 @@ def swap(Arr, x, y):
     
 def BubbleSort(Arr):
    n = len(Arr)
+
    for i in range(0, (n-2)+1):
        for j in range(0, (n-2-i)+1):
            if Arr[j+1] < Arr[j]:
