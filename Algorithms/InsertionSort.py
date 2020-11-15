@@ -3,6 +3,7 @@ import numpy as np
 
 def InsertionSort(Arr):
     n = len(Arr)
+    
     for i in range(1, (n-1)+1):
         k = Arr[i]
         j = i-1
@@ -13,12 +14,14 @@ def InsertionSort(Arr):
         
 
 randArr = np.random.randint(1, 100000, 1000)
+
 print("Some part of Initial Array:")
 print(randArr[:10])
 
 sTime = time.time()
 InsertionSort(randArr)
 eTime = time.time()
+
 print("Some part of Sorted Array:")
 print(randArr[:10])
      
