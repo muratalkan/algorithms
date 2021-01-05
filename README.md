@@ -1,5 +1,5 @@
 # Python-Algorithms 
-CTIS 264 - Lab Assignments 
+CTIS264 - Lab Assignments 
 
 # Packages 
 - pip install **numpy** <br> 
