@@ -1,7 +1,7 @@
-# Python-Algorithms 
-CTIS264 - Lab Assignments 
+# Algorithms 
+> CTIS264 - Lab Assignments 
 
-# Packages 
+## Packages 
 - pip install **numpy** <br> 
 - pip install **pandas** <br> 
 - pip install **matplotlib** <br> 
