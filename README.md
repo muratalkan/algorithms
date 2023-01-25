@@ -1,7 +1,7 @@
 # Algorithms 
 > CTIS264 - Lab Assignments 
 
-## Python Packages 
+#### Required Python Packages 
 - numpy
 - pandas
 - matplotlib
